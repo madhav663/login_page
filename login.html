@@ -3,9 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>login page</title>
 </head>
 <body>
-    
+    <h1>LOGIN PAGE</h1>
+    <form action="">
+   <div class="container">
+    <label for="uname" id="uname">Username</label><br>
+    <input type="text" name="uname"><br>
+    <label id="eml">Email</label><br>
+    <input type="text" name="eml"><br>
+     <label for="psw" id="psw">Password</label><br>
+     <input type="password" name="psw"><br>
+     <button type="submit">submit</button><br>
+     <label for="gender" >Gender:</label>
+     <input type="radio" name="gender" id="Mycheckbox1"  value="male">Male
+     <input type="radio" name="gender" id="Mycheckbox2" value="female">Female <br> 
+     <br>
+     <label for="cntry">COUNTRY-</label>
+     <select name="cntry" id="Mycountry">
+        <option disabled selected>Select State</option>
+        <option value="India">India</option>
+        <option value="Australia">Australia</option>
+        <option value="Pakistan">Pakistan</option>
+     </select>
+     <label for="state">STATE-</label>
+     <select name="state" id="Mystate">
+        <option disabled selected>Select State</option>
+     </select>
+
+   </div> </form>
+
+
 </body>
+<script src="./login.js"></script>
 </html>
